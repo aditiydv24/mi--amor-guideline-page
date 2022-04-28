@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&display=swap');
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.nav_bar{
+    /* background-color: cadetblue; */
+    height: 120px;
+    margin-left: 100px;
+    margin-right: 200px;
+    border-bottom: 1px solid black;
+}
+img{
+    height: 150px;
+}
+h1{
+    font-family: Merriweather Sans;
+}
+h2{
+    font-family: Merriweather Sans;
+    padding-top: 20px;
+}
+.safety{
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size : 18px;
+    font-family: 'Lobster', cursive;
+}
+.para{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: Barlow Condensed;
+}
+.title{
+    font-family: Merriweather Sans;
+    padding-top: 20px;
+    color: rgb(85, 76, 76);
+}
+.over{
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+footer{
+    background: #000000;
+    height: 170px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;    
+}
+footer h2{
+    position: absolute;
+    left:35%;
+}
